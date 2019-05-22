@@ -2,7 +2,10 @@
   background: #fff;
   min-height: 100vh;
 }
-
+section{
+    padding: 40px 10px;
+    
+}
 .home {
   background-color: #dfe6e9;
 }
@@ -16,12 +19,7 @@
   margin: auto;
   width: 30%;
   text-align: center;
-  .card-thumb {
-    img {
-      border-radius: 50%;
-      border: 10px solid #ccc;
-    }
-  }
+  
   .card-body {
     .pill {
       color: #fff;
@@ -30,18 +28,7 @@
       padding: 5px 20px;
       border-radius: 15px;
     }
-    .card-items {
-      margin-top: 10px; 
-      display: flex;
-      justify-content: center;
-      .card-item {
-        display: flex;
-        flex-direction: column;
-        img {
-          width: 50px;
-        }
-      }
-    }
+    
   }
 }
 
@@ -49,23 +36,40 @@
   box-shadow: 2px 2px 10px;
 }*/
 
-.title {
-    margin-top: 15%;
-  .site-title {
-    font-size: 4em;
+.card-thumb {
+  img {
+    border-radius: 50%;
   }
-  .site-subtitle{
-      font-size: 2em;
+}
+.card-items {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  .card-item {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 50px;
+    }
   }
 }
 
-.lookdown{
-    
-    text-align: center;
-    img{
-        width:50px;
-        cursor: pointer;
-    }
+.title {
+  margin-top: 15%;
+  .site-title {
+    font-size: 4em;
+  }
+  .site-subtitle {
+    font-size: 2em;
+  }
+}
+
+.lookdown {
+  text-align: center;
+  img {
+    width: 50px;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 1125px) {
