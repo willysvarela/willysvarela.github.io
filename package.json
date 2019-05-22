@@ -1,0 +1,29 @@
+{
+  "name": "willysvarela.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio page using github page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch scss/custom.scss -o public/css/bootstrap.min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willysvarela/willysvarela.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "willysvarela",
+    "githubpages"
+  ],
+  "author": "Willys Varela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willysvarela/willysvarela.github.io/issues"
+  },
+  "homepage": "https://github.com/willysvarela/willysvarela.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "npm": "^6.9.0"
+  }
+}
