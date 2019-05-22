@@ -1,4 +1,81 @@
-header{
-    background: #ccc;
-    min-height: 100vh;
+.fullscreen {
+  background: #fff;
+  min-height: 100vh;
+}
+
+.home {
+  background-color: #dfe6e9;
+}
+/* card
+.card {
+  transition: 1s;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #ccc;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  .card-thumb {
+    img {
+      border-radius: 50%;
+      border: 10px solid #ccc;
+    }
+  }
+  .card-body {
+    .pill {
+      color: #fff;
+      font-size: 0.9em;
+      background: rgb(31, 190, 177);
+      padding: 5px 20px;
+      border-radius: 15px;
+    }
+    .card-items {
+      margin-top: 10px; 
+      display: flex;
+      justify-content: center;
+      .card-item {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px;
+}*/
+
+.title {
+    margin-top: 15%;
+  .site-title {
+    font-size: 4em;
+  }
+  .site-subtitle{
+      font-size: 2em;
+  }
+}
+
+.lookdown{
+    
+    text-align: center;
+    img{
+        width:50px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
 }

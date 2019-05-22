@@ -4,30 +4,32 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Willys - Portfolio Page</title>
-    <link href="css/style.css" rel="stylesheet">
-    </link>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/animate.css" rel="stylesheet"/>
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="fullscreen home">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="navbar-collapse">
+            </div>
+            <div class="collapse navbar-collapse " id="menu">
+                <ul class="navbar-nav  justify-content-end">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Eu<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -35,9 +37,45 @@
                 </ul>
             </div>
         </nav>
+        <div class="container title animated fadeInDown delay-1s">
+            <h1 class="site-title">Web Developer</h1>
+            <h2 class="site=subtitle">Crio coisas belas e simples. E amo fazer isso.</h2>
+        </div>
+        <!--div class="card">
+            <div class="card-thumb">
+                <img src="https://d4zjpv0aa4kr2.cloudfront.net/uploads/candidate/image/71310/thumb_a0a36b09-4348-454a-85f6-36a2d92c485f.jpg"
+                    alt="eu" />
+            </div>
+            <h2 class="card-title">Willys Varela</h2>
+            <div class="card-body">
+                <span class="pill">Front-end Developer </span>
+                <div class="card-items">
+                    <div class="card-item">
+                        <a href="http://github.com/willysvarela" target="_blank">
+                            <img src="https://img.icons8.com/nolan/64/000000/github.png">
+                        </a>
+                    </div>
+                    <div class="card-item">
+                        <a href="http://linkedin.com/in/willysvarela" target="_blank">
+                            <img src="https://img.icons8.com/nolan/64/000000/linkedin.png">
+                        </a>
+                    </div>
+                    <div class="card-item">
+                        <a href="cv.pdf" target="_blank">
+                            <img src="https://img.icons8.com/nolan/50/000000/google-docs.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div -->
+        <div class="lookdown">
+            <img class=" animated heartBeat infinite" width="10" src="assets/img/icon_down.png" alt="Down"/>
+        </div>
     </header>
-    <section class="container">
-        <h1>Willys Varela</h1>
+    <section class="fullscreen about">
+        <h1>Oi, eu sou o Willys!</h1>
+        <p>Trabalho com desenvolvimento desde </p>
     </section>
     <footer>
 
