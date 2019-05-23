@@ -6060,10 +6060,16 @@ section {
   display: flex;
   justify-content: center; }
   .card-items .card-item {
-    display: flex;
-    flex-direction: column; }
+    margin: 10px;
+    padding: 10px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 2px #ccc;
+    border-radius: 10px;
+    text-decoration: none; }
     .card-items .card-item img {
       width: 50px; }
+  .card-items .card-item:hover {
+    box-shadow: 4px 4px 2px #ccc; }
 
 .title {
   margin-top: 15%; }
@@ -6073,10 +6079,31 @@ section {
     font-size: 2em; }
 
 .lookdown {
-  text-align: center; }
+  text-align: center;
+  margin: auto;
+  margin-top: 10%; }
   .lookdown img {
     width: 50px;
     cursor: pointer; }
+
+.skills .div-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .skills .div-skills .skill {
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px; }
+    .skills .div-skills .skill .list-group-item {
+      padding-top: 5px; }
+
+footer {
+  background: #222222;
+  color: white;
+  padding: 20px;
+  text-align: center; }
 
 @media only screen and (max-width: 1125px) {
   .card {
