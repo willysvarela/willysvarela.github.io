@@ -24,6 +24,6 @@
   "homepage": "https://github.com/willysvarela/willysvarela.github.io#readme",
   "dependencies": {
     "node-sass": "^4.12.0",
-    "npm": "^6.9.0"
+    "npm": "^6.14.6"
   }
 }
