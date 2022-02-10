@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/willysvarela/willysvarela.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npm": "^6.9.0"
   }
 }
